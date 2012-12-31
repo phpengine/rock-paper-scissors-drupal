@@ -12,13 +12,13 @@ class EbayRPSGameViewClassTest extends PHPUnit_Framework_TestCase {
 
         require_once("bootstrap.php");
 
-        require_once(bootstrapForTests::getBasePath()."sites/all/modules/ebay_rpsgame/routerClass.php");
+        require_once(bootstrapForTests::getBasePath()."src/sites/all/modules/ebay_rpsgame/routerClass.php");
         $this->route = new EbayRPSGameRouterClass();
 
-        require_once(bootstrapForTests::getBasePath()."sites/all/modules/ebay_rpsgame/controlclass.php");
+        require_once(bootstrapForTests::getBasePath()."src/sites/all/modules/ebay_rpsgame/controlclass.php");
         $this->control = new EbayRPSGameControlClass();
 
-        require_once(bootstrapForTests::getBasePath()."sites/all/modules/ebay_rpsgame/viewclass.php");
+        require_once(bootstrapForTests::getBasePath()."src/sites/all/modules/ebay_rpsgame/viewclass.php");
         $this->view = new EbayRPSGameViewClass() ;
 
         $route = $this->route->run();
