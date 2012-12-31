@@ -1,0 +1,3 @@
+name = Rock, Paper, Scissors
+description = An implementation of the game "Rock, Paper, Scissors" for Ebay UK by David Amanshia on behalf of Golden Contact Computing.
+core = 7.x

@@ -1,0 +1,37 @@
+<?php
+
+/**
+*
+* EBAY  - ROCK PAPER SCISSORS GAME
+* 20/11/2011
+* ------
+* EXECUTOR
+*
+*/
+
+
+/**
+* class EbayRPSGameExecutorClass
+* @desc: This class only has one exposed method,
+*  run, that should always return a value - parsed html output
+*/
+class EbayRPSGameExecutorClass {
+
+	public function __construct() {
+		
+		// include the required files
+		require_once("routerClass.php"); // the router class
+		require_once("controlclass.php"); //
+		require_once("viewclass.php"); //
+
+		$this->route = new EbayRPSGameRouterClass();
+		$this->control = new EbayRPSGameControlClass();
+		$this->view = new EbayRPSGameViewClass();
+	}
+
+
+	public function run() {
+		return $this->view ;
+	}
+
+}
