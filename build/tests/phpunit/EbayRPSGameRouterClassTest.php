@@ -5,6 +5,9 @@ class EbayRPSGameRouterClassTest extends PHPUnit_Framework_TestCase {
     private $router;
 
     public function setUp() {
+
+        require_once("bootstrap.php");
+
         require_once(bootstrapForTests::getBasePath()."/sites/all/modules/ebay_rpsgame/routerClass.php");
 	    $this->router = new EbayRPSGameRouterClass() ;
     }
