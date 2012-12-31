@@ -1,8 +1,5 @@
 <?php
 
-$bootStrap = new bootStrapForTests();
-$bootStrap->launch();
-
 class bootStrapForTests {
 
     public static function getBasePath() {
