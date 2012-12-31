@@ -14,8 +14,7 @@ class phpMDCiExecutor {
 
     private function performTests(){
         $basePath = str_replace('build/config/phpmd', "", dirname(__FILE__));
-        $command = 'phpmd '.$basePath.'src/ xml '.dirname(__FILE__).'/rules/standard.xml ';
-        $command .= ' --exclude '.$basePath.'src/Core/View.php';
+        $command = 'phpmd '.$basePath.'src/sites/all/modules/ebay_rpsgame xml '.dirname(__FILE__).'/rules/standard.xml ';
         $command .= ' --reportfile '.$basePath.'build/reports/phpmd/xml/report.xml';
         self::executeAndOutput($command); }
 
