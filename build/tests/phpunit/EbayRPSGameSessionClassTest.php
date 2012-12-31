@@ -9,7 +9,7 @@ class EbayRPSGameSessionClassTest extends PHPUnit_Framework_TestCase {
 
         require_once("bootstrap.php");
 
-        require_once(bootstrapForTests::getBasePath()."/sites/all/modules/ebay_rpsgame/sessionclass.php");
+        require_once(bootstrapForTests::getBasePath()."sites/all/modules/ebay_rpsgame/sessionclass.php");
         $this->session = new EbayRPSGameSessionClass() ;
     }
 
