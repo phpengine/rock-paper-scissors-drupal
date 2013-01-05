@@ -94,12 +94,12 @@ class RPSNewModelJuicyCVPageeClassTest extends PHPUnit_Framework_TestCase {
     }
 
     public function testGetPageDataReturnsArray() {
-        $model = new \Model\FullCVPage();
+        $model = new \Model\JuicyCVPage();
         $this->assertTrue(is_array($model->getPageData()) );
     }
 
     public function testGetPageDataReturnsArrayOfCorrectStructure() {
-        $model = new \Model\FullCVPage();
+        $model = new \Model\JuicyCVPage();
         $this->assertTrue( array_key_exists("title", $model->getPageData()) );
         $this->assertTrue( array_key_exists("subTitle", $model->getPageData()) );
         $this->assertTrue( array_key_exists("content", $model->getPageData()) );

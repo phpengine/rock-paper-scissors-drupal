@@ -94,12 +94,12 @@ class RPSNewModelHiPageClassTest extends PHPUnit_Framework_TestCase {
     }
 
     public function testGetPageDataReturnsArray() {
-        $model = new \Model\FullCVPage();
+        $model = new \Model\HiPage();
         $this->assertTrue(is_array($model->getPageData()) );
     }
 
     public function testGetPageDataReturnsArrayOfCorrectStructure() {
-        $model = new \Model\FullCVPage();
+        $model = new \Model\HiPage();
         $this->assertTrue( array_key_exists("title", $model->getPageData()) );
         $this->assertTrue( array_key_exists("subTitle", $model->getPageData()) );
         $this->assertTrue( array_key_exists("content", $model->getPageData()) );
