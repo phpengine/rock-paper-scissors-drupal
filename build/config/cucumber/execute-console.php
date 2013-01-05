@@ -6,7 +6,7 @@ class cukeConsoleExecutor {
 
     public static function execute(){
         self::setWorkingDirectory();
-        self::startRuby();
+        seld::startRuby();
         self::performTests();
     }
 

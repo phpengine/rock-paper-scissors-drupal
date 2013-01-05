@@ -16,8 +16,14 @@ class cukeCiExecutor {
         $command = "cd $scriptLocation";
         self::executeAndOutput($command); }
 
+    private function startRuby(){
+        $commOne = 'rvm use 1.9.3';
+        self::executeAndOutput($commOne); }
+
     private function performTests(){
-        $command = 'cucumber --format json -o cucumber.json';
+        $basePath = str_replace('build/config/cucumber', "", dirname(__FILE__));
+        $reportLocation = $basePath.'build/reports/cucumber/json/';
+        $command = 'cucumber --format json -o '.$reportLocation.'cucumber.json';
         self::executeAndOutput($command); }
 
     private static function executeAndOutput($command) {

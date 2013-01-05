@@ -1,8 +1,15 @@
 <?php
 
+$bootStrap = new bootStrapForTests();
+$bootStrap->launch();
+
 class bootStrapForTests {
 
-    public static function getBasePath() {
-        return str_replace('build/tests/phpunit','',dirname(__FILE__)) ; }
+    public function launch() {
+        $basePath = str_replace('build/tests/phpunit', "", dirname(__FILE__));
+        require_once ($basePath."/src/sites/all/modules/gc_helloworld/AutoLoad.php");
+        $autoLoader = new \Core\autoLoader();
+        $autoLoader->launch();
+    }
 
 }
