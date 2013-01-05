@@ -379,7 +379,7 @@ class DatabaseSchema_mysql extends DatabaseSchema {
 
   public function indexExists($table, $name) {
     // Returns one row for each column in the index. Result is string or FALSE.
-    // Details at http://dev.mysql.com/doc/refman/5.0/en/show-index.html
+    // Details at http://dev.mysql.com/doc/refman/5.0/en/show-empty.html
     $row = $this->connection->query('SHOW INDEX FROM {' . $table . "} WHERE key_name = '$name'")->fetchAssoc();
     return isset($row['key_name']);
   }

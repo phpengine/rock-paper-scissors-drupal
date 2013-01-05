@@ -1,0 +1,170 @@
+html, body, h1, h2, h3, h4, h5, h6, p { text-align: center; font-family:Arial; }
+div.wrap{ width: 100%; }
+div.page{ width: 960px; margin: 0 auto; }
+div.pageRow{ width: 100%; float: left; }
+.navMenu form { float:right; max-width: 400px; margin-left: 10px; }
+.centeredText{ text-align: center; }
+input.standardInput {
+    width: 40%;
+    height: 3em;
+    margin: 0 auto;
+    display: block;
+}
+input.buttonInput {
+    height: 2em;
+    margin: 0 auto;
+    display: block;
+    background: none repeat scroll 0 0 #CCC;
+    border: 1px solid black;
+}
+input.button { cursor: pointer; }
+input.button:hover { color: white; background: none repeat scroll 0 0 #888; border: 1px solid #000; }
+
+.dataGrid{
+    width: 960px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.gridRecordDetailsRow{
+    width: 100%;
+    float:left;
+}
+
+.gridRecordDetailsTitleRow{
+    width: 100%;
+    float:left;
+    background: #CCC;
+}
+
+.gridRecordDetailsField{
+    width: 300px;
+    float: left;
+}
+
+.gridRecordDetailsInnerField{
+    width: 150px;
+    float: left;
+    overflow: hidden;
+}
+
+input#startGameButton{
+    display: block;
+    margin: 0 auto;
+}
+
+.startImage{
+    background-image: url(../images/playbutton.gif);
+    width: 432px;
+    height: 324px;
+    border: 0px;
+}
+
+.startImage:hover{
+    cursor: pointer;
+}
+
+div.gamingWrap{
+    margin: 0: auto;
+    display: inline-block;
+    width: 940px;
+    text-align:center;
+}
+
+div.vsHolder{
+    border:none;
+    float:left;
+    width:430px;
+}
+
+div.playimg{
+    border:none;
+    float:left;
+    width:240px;
+    min-height:70px;
+    margin-top:30px;
+}
+
+div.playimg img{
+    border:none;
+    width:240px;
+}
+
+div.playimginner{
+    border:none;
+    float:left;
+    width: 100%;
+}
+
+div.fullrow {
+    float:left;
+    width:100%;
+}
+
+div.fullrow a {
+    position: relative;
+    left: -80px;
+}
+
+div.choicediv {
+    display: none ;
+}
+
+div.choicediv input{
+    float:left;
+    left:40px;
+    position:relative;
+}
+
+div.choicediv img {
+    width: 50px;
+}
+
+div#home-message {
+    display: none;
+}
+
+.pointerHover:hover{
+    cursor:pointer;
+}
+
+.playGameButton{
+    display:none;
+    margin: 0 auto;
+    position: relative;
+    height:71px;
+    width:371px;
+    background:url("../images/playnow.png");
+    background-size:371px 71px;
+    background-repeat:no-repeat;
+    border: 0px;
+}
+
+.lev1{
+    float:left;
+    width: 100%;
+}
+
+.lev1 input{
+    float:left;
+    width:20%;
+}
+.lev1 span{
+    float:left;
+    width:80%;
+}
+
+span.lev2{
+    float:left;
+    width: 100% !important;
+}
+
+.lev3{
+    float:left;
+    width: 100%;
+}
+
+#logo{
+    display: block;
+    float: left;;
+}

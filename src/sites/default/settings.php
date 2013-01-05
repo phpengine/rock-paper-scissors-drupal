@@ -205,9 +205,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'drupal_test',
+      'database' => 'RPSDrupal',
       'username' => 'root',
-      'password' => 'codeFire44',
+      'password' => 'ebayebay',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

@@ -43,7 +43,7 @@ define('PREG_CLASS_PUNCTUATION',
  * Matches CJK (Chinese, Japanese, Korean) letter-like characters.
  *
  * This list is derived from the "East Asian Scripts" section of
- * http://www.unicode.org/charts/index.html, as well as a comment on
+ * http://www.unicode.org/charts/empty.html, as well as a comment on
  * http://unicode.org/reports/tr11/tr11-11.html listing some character
  * ranges that are reserved for additional CJK ideographs.
  *
