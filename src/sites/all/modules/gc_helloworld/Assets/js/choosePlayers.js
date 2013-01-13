@@ -9,27 +9,19 @@ function openHumanChoicesOnPageLoadIfNeeded(){
 
 function changePlayerType(playerType) {
     if (document.getElementById(playerType+"radioComp").checked) {
-        hideDiv(playerType+"choicediv"); }
+        document.getElementById(playerType+"choicediv").style.display = 'none'; }
     else if (document.getElementById(playerType+"radioHuman").checked) {
-        showDiv(playerType+"choicediv"); }
+        document.getElementById(playerType+"choicediv").style.display = 'block'; }
     checkChoice();
-}
-
-function hideDiv(divid) {
-	document.getElementById(divid).style.display = 'none';
-}
-
-function showDiv(divid) {
-	document.getElementById(divid).style.display = 'block';
 }
 
 function checkChoice() {
     $areBothPlayersTypesChosen = areBothPlayersTypesChosen();
     $bothHumanPlayersHaveChosenWeapons = anyHumanPlayersHaveChosenWeapons();
     if ( $areBothPlayersTypesChosen==true && $bothHumanPlayersHaveChosenWeapons==true) {
-        showStartGameButton(); }
+        document.getElementById("playGameButton").style.display = 'block'; }
     else {
-        hideStartGameButton(); }
+        document.getElementById("playGameButton").style.display = 'none'; }
 }
 
 function areBothPlayersTypesChosen() {
@@ -40,13 +32,13 @@ function areBothPlayersTypesChosen() {
 }
 
 function anyHumanPlayersHaveChosenWeapons() {
-    if (aHumanPlayersHasChosenAWeapon("p1") == true &&
-        aHumanPlayersHasChosenAWeapon("p2") == true) {
+    if (aPlayersHasChosenAWeaponIfHuman("p1") == true &&
+        aPlayersHasChosenAWeaponIfHuman("p2") == true) {
         return true; }
     return false;
 }
 
-function aHumanPlayersHasChosenAWeapon(playerType) {
+function aPlayersHasChosenAWeaponIfHuman(playerType) {
     if (document.getElementById(playerType+"radioHuman").checked) {
         if (document.getElementById(playerType+"radioPaper").checked ||
             document.getElementById(playerType+"radioRock").checked ||
@@ -55,12 +47,4 @@ function aHumanPlayersHasChosenAWeapon(playerType) {
         return false; }
     else {
         return true; }
-}
-
-function hideStartGameButton() {
-	document.getElementById("playGameButton").style.display = 'none';
-}
-
-function showStartGameButton() {
-	document.getElementById("playGameButton").style.display = 'block';
 }

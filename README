@@ -1,7 +1,5 @@
-PHP MD README
----------------
-
-This document
+Rock, Paper, Scissors - Another version of this coding puzzle written in Drupal.
+Object Oriented, Fully PHPUnit PHP Tested, Jasmine Tested OO MVC JS and Cucumber BDD Tested
 
 The build is ready to pass the following
 
@@ -9,5 +7,5 @@ The build is ready to pass the following
 2) php md tests - phpmd
 3) phpunit tests - phpunit
 
-All available in the build/config folder, just run execute.php
+All available in their respective build/config folders, just run execute-*.php
 

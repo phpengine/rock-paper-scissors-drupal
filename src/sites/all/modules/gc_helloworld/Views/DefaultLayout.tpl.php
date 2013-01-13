@@ -4,8 +4,6 @@
         <div class="pageRow">
             <div id="logo">
             </div>
-
-
         </div> <!-- end pageRow div-->
 
         <div class="pageRow">
@@ -14,7 +12,7 @@
 
         <div class="pageRow">
             <p>
-                Brought to you by eBay UK
+                Brought to you by Golden Contact Computing
             </p>
         </div> <!-- end pageRow div-->
 
