@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bc2eee-1608-415d-97a0-58004bfdcb79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/config/phpunit/execute-ci.php" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/untitled/RPSDrupal.iml" afterPath="$PROJECT_DIR$/RPSDrupal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css" afterPath="$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ebayCodePractice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359900234102" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359904636060" ignored="false" />
     <file path="/UserSession.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356956997598" ignored="false" />
     <file path="/GroupRole.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356600456868" ignored="false" />
     <file path="/EbayCodePracticeModelUserClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356604771778" ignored="false" />
@@ -30,7 +26,7 @@
     <file path="/ResultsPage.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356618453395" ignored="false" />
     <file path="/GroupPage.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356619003039" ignored="false" />
     <file path="/ValidationHelpers.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356620323319" ignored="false" />
-    <file path="/a.dummy" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359410850922" ignored="false" />
+    <file path="/a.dummy" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359906423604" ignored="false" />
     <file path="/EbayCodePracticeModelUserRoleClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356624510568" ignored="false" />
     <file path="/EbayCodePracticeCoreModelFactoryClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356620798443" ignored="false" />
     <file path="/RegistrationForm.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356830690735" ignored="false" />
@@ -70,7 +66,10 @@
     <file path="$PROJECT_DIR$/../../nodeJs/miniAppy/router.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358549849959" ignored="false" />
     <file path="/router.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358549255581" ignored="false" />
     <file path="/server.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358552723828" ignored="false" />
-    <file path="/style.css" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359410272637" ignored="false" />
+    <file path="/style.css" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359910029678" ignored="false" />
+    <file path="$PROJECT_DIR$/../rock-paper-scissors-php/build/tests/features/support/env.rb" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359900643646" ignored="false" />
+    <file path="/env.rb" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359900643980" ignored="false" />
+    <file path="/page.tpl.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359907443848" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,64 +139,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sites/default/settings.php">
+      <file leaf-file-name="BaseClassTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/tests/phpunit/Controller/BaseClassTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="30" selection-start="6156" selection-end="6156" vertical-scroll-proportion="0.0">
+            <state line="5" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.0416667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gc_rpsgame.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.module">
+      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/tests/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="107" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="execute-ci-clover-coverage-xml.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="221" selection-end="266" vertical-scroll-proportion="0.4477612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="execute-ci-xunit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Controller/Base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="74" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gc_rpsgame.info" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="56" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="21" selection-start="6660" selection-end="6660" vertical-scroll-proportion="0.0">
+            <state line="24" column="78" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,16 +160,70 @@
       <file leaf-file-name="DefaultLayout.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/DefaultLayout.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="63" selection-start="376" selection-end="376" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execute-ci.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/phpmd/execute-ci.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="31" selection-start="637" selection-end="644" vertical-scroll-proportion="-8.333333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execute-console.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/phpmd/execute-console.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="31" selection-start="570" selection-end="570" vertical-scroll-proportion="-8.958333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execute-html.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/phpmd/execute-html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="34" selection-start="549" selection-end="559" vertical-scroll-proportion="-7.0833335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="295" column="16" selection-start="6748" selection-end="6748" vertical-scroll-proportion="0.58154505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/style.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameIntroView.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/GameIntroView.tpl.php">
+      <file leaf-file-name="standard.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/phpmd/rules/standard.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -239,22 +247,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build/reports/cucumber/cucumber.json" />
-        <option value="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php" />
-        <option value="$PROJECT_DIR$/src/Model/UserData.php" />
-        <option value="$PROJECT_DIR$/src/Model/UserSession.php" />
-        <option value="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserSessionClassTest.php" />
-        <option value="$PROJECT_DIR$/build/config/phpunit/execute-html.php" />
-        <option value="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeCoreDatabaseClassTest.php" />
-        <option value="$PROJECT_DIR$/src/Core/Database.php" />
         <option value="$PROJECT_DIR$/src/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/gc_helloworld.info" />
-        <option value="$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css" />
         <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/Views/GameIntroView.tpl.php" />
         <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/gc_helloworld.module" />
         <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/Controller/Base.php" />
         <option value="$PROJECT_DIR$/src/sites/all/modules/ebay_rpsgame/Controller/Base.php" />
         <option value="$PROJECT_DIR$/src/sites/all/modules/ebay_rpsgame/ebay_rpsgame.module" />
+        <option value="$PROJECT_DIR$/build/tests/phpunit/bootstrap.php" />
+        <option value="$PROJECT_DIR$/build/tests/phpunit/Controller/GameClassTest.php" />
+        <option value="$PROJECT_DIR$/build/tests/phpunit/Controller/BaseClassTest.php" />
+        <option value="$PROJECT_DIR$/build/tests/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/src/sites/all/themes/gcClean/page.tpl.php" />
+        <option value="$PROJECT_DIR$/build/config/phpmd/execute-ci.php" />
+        <option value="$PROJECT_DIR$/build/config/phpmd/execute-console.php" />
+        <option value="$PROJECT_DIR$/build/config/phpmd/execute-html.php" />
+        <option value="$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css" />
       </list>
     </option>
   </component>
@@ -295,10 +303,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.3" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="y" value="69" />
-    <option name="width" value="1223" />
-    <option name="height" value="666" />
+    <option name="x" value="19" />
+    <option name="y" value="74" />
+    <option name="width" value="1344" />
+    <option name="height" value="694" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -328,6 +336,19 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,73 +365,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="rock-paper-scissors-drupal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rock-paper-scissors-drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rock-paper-scissors-drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rock-paper-scissors-drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rock-paper-scissors-drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpunit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rock-paper-scissors-drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rock-paper-scissors-drupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -452,8 +406,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -464,11 +418,11 @@
       <recent name="$PROJECT_DIR$/build/config/cucumber" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spare" />
-      <recent name="$PROJECT_DIR$/build/tests/features/step_definitions" />
-      <recent name="$PROJECT_DIR$/build/config/cucumber" />
-      <recent name="$PROJECT_DIR$/build/reports/cucumber/html" />
-      <recent name="$PROJECT_DIR$/build/reports/phpmd/html" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/build/tests/phpunit/Model" />
+      <recent name="$PROJECT_DIR$/build/tests/phpunit/Core" />
+      <recent name="$PROJECT_DIR$/build/tests/phpunit/Controller" />
+      <recent name="$PROJECT_DIR$/build/tests/phpunit" />
     </key>
   </component>
   <component name="RunManager">
@@ -767,12 +721,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="69" width="1223" height="666" extended-state="0" />
+    <frame x="19" y="74" width="1344" height="694" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42885375" sideWeight="0.4939394" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Information" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -789,21 +744,20 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hudson Jobs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27497864" sideWeight="0.5704467" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22213623" sideWeight="0.73018867" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5272109" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.548552" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="SimpleHttpClient" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SimpleHttpClient" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.548552" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42955327" sideWeight="0.4939394" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Navigate" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32473445" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Network Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32473445" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="FileBrowser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -906,54 +860,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="30" selection-start="6156" selection-end="6156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.module">
+    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.info">
+    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="56" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="221" selection-end="266" vertical-scroll-proportion="-5.0833335">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/tests/features/step_definitions/basic_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="141" selection-end="171" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/config/cucumber/execute-ci.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="30" selection-start="6156" selection-end="6156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Assets/js/choosePlayers.js">
+    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-console.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css">
+    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="21" selection-start="6660" selection-end="6660" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="57" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/Controller/GameClassTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="60" selection-start="120" selection-end="172" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/Controller/BaseClassTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.0416667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/tests/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="78" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -965,44 +923,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Controller/Base.php">
+    <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+        <state line="8" column="63" selection-start="376" selection-end="376" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="56" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/GameIntroView.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="107" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php">
+    <entry file="file://$PROJECT_DIR$/build/config/phpmd/rules/standard.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php">
+    <entry file="file://$PROJECT_DIR$/build/config/phpmd/execute-console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="221" selection-end="266" vertical-scroll-proportion="0.4477612">
+        <state line="17" column="31" selection-start="570" selection-end="570" vertical-scroll-proportion="-8.958333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/phpmd/execute-ci.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="637" selection-end="644" vertical-scroll-proportion="-8.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/phpmd/execute-html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="549" selection-end="559" vertical-scroll-proportion="-7.0833335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="16" selection-start="6748" selection-end="6748" vertical-scroll-proportion="0.58154505">
           <folding />
         </state>
       </provider>
