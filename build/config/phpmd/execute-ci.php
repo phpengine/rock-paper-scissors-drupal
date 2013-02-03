@@ -14,7 +14,7 @@ class phpMDCiExecutor {
 
     private function performTests(){
         $basePath = str_replace('build/config/phpmd', "", dirname(__FILE__));
-        $command = 'phpmd '.$basePath.'src/sites/all/modules/gc_helloworld xml '.dirname(__FILE__).'/rules/standard.xml ';
+        $command = 'phpmd '.$basePath.'src/sites/all/modules/gc_rpsgame xml '.dirname(__FILE__).'/rules/standard.xml ';
         $command .= ' --reportfile '.$basePath.'build/reports/phpmd/xml/report.xml';
         self::executeAndOutput($command); }
 
