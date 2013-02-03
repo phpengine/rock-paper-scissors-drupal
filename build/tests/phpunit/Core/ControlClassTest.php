@@ -5,7 +5,7 @@ class RPSNewCoreControlClassTest extends PHPUnit_Framework_TestCase {
     private $availableControls;
 
     public function setUp() {
-        require_once("bootstrap.php");
+        require_once("../bootstrap.php");
         $this->availableControls = array("Game");
     }
 
