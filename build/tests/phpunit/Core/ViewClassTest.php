@@ -16,13 +16,13 @@ class RPSNewCoreViewClassTest extends PHPUnit_Framework_TestCase {
     }
 
     public function testexecuteViewRendersString() {
-        require_once("../bootstrap.php");
+        require_once(dirname(__FILE__)."/../bootstrap.php");
         $this->executeViewStoreTheOutput();
         $this->assertTrue( is_string($this->storedViewOutput2) );
     }
 
     private function executeViewStoreTheOutput() {
-        require_once("../bootstrap.php");
+        require_once(dirname(__FILE__)."/../bootstrap.php");
         foreach ($this->listOfViews as $viewName) {
             $view = new \Core\View() ;
             ob_start() ;
