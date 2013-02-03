@@ -207,7 +207,7 @@ $databases = array (
     array (
       'database' => 'RPSDrupal',
       'username' => 'root',
-      'password' => 'ebayebay',
+      'password' => 'blueFire45',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

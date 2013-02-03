@@ -1,0 +1,63 @@
+<?php
+/**
+* @file
+* This module is the "Golden Contact Rock, Paper, Scissors" functions.
+*
+* **-DATE-**
+*
+*/
+
+
+/**
+* Implements hook_help.
+*
+* Displays help and module information.
+*
+* @param path
+*   Which path of the site we're using to display help
+* @param arg
+*   Array that holds the current path as returned from arg() function
+*/
+function gc_rpsgame_help($path, $arg) {
+    switch ($path) {
+    case "admin/help#gc_rpsgame":
+      return '<p>'.t("This is the Golden Contact Rock, Paper, Scissors Module").'</p>';
+      break;
+    }
+}
+
+
+/**
+* Implements hook_block_info().
+*/
+function gc_rpsgame_block_info() {
+    $blocks['gc_rpsgame'] = array(
+      'info' => t('Golden Contact Rock, Paper, Scissors'), //The name that will appear in the block list.
+      'cache' => DRUPAL_CACHE_PER_ROLE //Default
+    );
+    return $blocks;
+}
+
+
+
+/**
+* Implements hook_block_view().
+*/
+function gc_rpsgame_block_view($delta = '') {
+  switch($delta){
+    case 'gc_rpsgame':
+      $block['subject'] = t('Golden Contact Rock, Paper, Scissors');
+      if(user_access('access content')){
+           //Retrieve and process data here.
+           //Pass data through theme function.
+          require_once(dirname(__FILE__)."/"."AutoLoad.php");
+          require_once(dirname(__FILE__)."/"."Bootstrap.php");
+          ob_start();
+          $bootStrap = new \Core\RPSBootStrap();
+          $bootStrap->main();
+          $out = ob_get_clean();
+          $block['content'] = $out;
+      }
+   } 
+  return $block;
+}

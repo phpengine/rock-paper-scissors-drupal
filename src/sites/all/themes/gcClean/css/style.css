@@ -1,0 +1,302 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Classica
+	Theme URI: http://www.premiumpixels.com
+	Description: A Minimalistic Portfolio Theme
+	Author: Orman Clark
+	Author URI: http://www.premiumpixels.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.2.2
+
+	Designed & Handcrafted by Orman Clark for PremiumPixels.com
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------
+
+	0.	CSS Reset & Clearfix
+	1.	Document Setup (body, common classes, vertical rhythm, structure etc)
+	3.	Header Styles
+	4.	Navigation & Menus
+	5.	Main Content Styles
+	6.	Post Content Styles
+	7.	Comments
+	8.	Pagination
+	9.	Footer Styles
+	10.	Page Templates
+	11.	Widgets
+	12.	Sortcode Styles
+	13.	Homepage Elements
+	14.	Portfolio Sorter
+
+-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	0.	CSS Reset & Clearfix - http://meyerweb.com/eric/tools/css/reset/
+/*-----------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } del { text-decoration: line-through; } table { border-collapse: collapse; border-spacing: 0; }
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .clearfix { display: inline-block; } /* Hide from IE Mac \*/ .clearfix { display: block; } /* End hide from IE Mac */ .none { display: none; } /* End Clearfix */
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	1.	Document Setup (body, common classes, vertical rhythm, structure etc)
+/*-----------------------------------------------------------------------------------*/
+
+body {
+	border-top: 10px solid #f5f5f5;
+	font: 12px/20px Arial, Verdana, sans-serif;
+	background: #fff;
+	color: #444;
+}
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 22px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+h4 {
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 15px;
+	font-family: "Droid Serif", Georgia, Times, serif;
+	font-style: italic;
+}
+
+h5 {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+h6 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+
+
+
+
+
+
+
+
+.page-title {
+	font-size: 22px;
+	font-family: "Droid Serif", Georgia, Times, serif;
+	font-style: italic;
+	padding: 38px 0 38px 0;
+	border-bottom: 1px solid #efefef;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	3.	Header Styles
+/*-----------------------------------------------------------------------------------*/
+
+#upper-wrap { border-bottom: 1px solid #efefef; }
+
+#logo { float: left; }
+
+#logo,
+#logo a {
+	font-size: 28px;
+	line-height: 30px;
+	color: #000;
+	font-weight: bold;
+}
+
+#logo a:hover { text-decoration: none; }
+
+#tagline {
+	color: #999;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.	Navigation & Menus
+/*-----------------------------------------------------------------------------------*/
+
+#primary-nav {
+	float: right;
+	margin-bottom: 35px;
+	margin-top: 5px;
+	font-size:13px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#primary-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 35px;
+}
+
+#primary-nav ul a {
+	display: block;
+	position: relative;
+}
+
+#primary-nav ul li {
+	float: left;
+	position: relative;
+	z-index: 40;
+}
+
+#primary-nav ul li:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
+
+#primary-nav ul ul {
+	/* position: absolute;
+	top: -9999em; */
+	width: 450px; /* left offset of submenus need to match (see below) */
+}
+
+#primary-nav ul ul li { width: 130px; float: left; }
+
+/*  Make sub menus appear */
+#primary-nav ul li:hover ul,
+#primary-nav ul li.sfHover ul {
+	left: -1px;
+	top: 36px; /* match top ul list item height */
+	z-index: 99;
+}
+
+/* Hide all subs subs (4 levels deep) */
+#primary-nav ul li:hover li ul,
+#primary-nav ul li.sfHover li ul,
+#primary-nav ul li li:hover li ul,
+#primary-nav ul li li.sfHover li ul,
+#primary-nav ul li li li:hover li ul,
+#primary-nav ul li li li.sfHover li ul { top: -9999em; }
+
+/* Displays all subs subs (4 levels deep) */
+#primary-nav ul li li:hover ul,
+#primary-nav ul li li.sfHover ul,
+#primary-nav ul li li li:hover ul,
+#primary-nav ul li li li.sfHover ul,
+#primary-nav ul li li li li:hover ul,
+#primary-nav ul li li li li.sfHover ul {
+	left: 180px; /* match .nav ul width */
+	top: -1px;
+}
+
+/* top level skin */
+#primary-nav ul a {
+	padding: 0 15px;
+	color: #999;
+	height: 35px;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+#primary-nav ul li a:hover,
+#primary-nav ul li:hover,
+#primary-nav ul li.sfHover a,
+#primary-nav ul li.current-cat a,
+#primary-nav ul li.current_page_item a,
+#primary-nav ul li.current-menu-item a {
+	text-decoration: none;
+	color: #444!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	9.	Footer Styles
+/*-----------------------------------------------------------------------------------*/
+#footer {
+	padding: 25px 0 20px 0;
+	border-top: 1px solid #e0e0e0;
+	background: #f5f5f5;
+	font-size: 11px;
+	width: 940px;
+	margin: 0 auto;
+	color: #999;
+	clear: both;
+}
+
+.recent-wrap {
+	width: 700px;
+	float: left;
+	border-top: 1px solid #efefef;
+	padding: 40px 0 20px 0;
+}
+
+
+div#pageWrap {
+    width: 90%;
+    max-width: 960px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+div#logo-outer{
+    float:left;
+    width:25%;
+    min-width: 200px;
+}
+
+div#logo-outer a{
+    display: inline-block;
+    float:left;
+}
+
+div#logo-outer a img{
+}
+
+div#slogan-right{
+    width:75%;
+    float:right;
+    height: 100%;;
+}
+
+div#slogan-right h1{
+    font-size:36pt;
+    display: inline-block;
+    margin: auto 0;
+}
