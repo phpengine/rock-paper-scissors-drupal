@@ -16,7 +16,7 @@ class phpMDCiExecutor {
         $basePath = str_replace('build/config/phpmd', "", dirname(__FILE__));
         $command = 'phpmd '.$basePath.'src/sites/all/modules/gc_rpsgame xml '.dirname(__FILE__).'/rules/standard.xml ';
         $command .= ' --reportfile '.$basePath.'build/reports/phpmd/xml/report.xml';
-        $command .= ' --ignore '.$basePath.'src/sites/all/modules/gc_rpsgame/Core/View.php';
+        $command .= ' --exclude '.$basePath.'src/sites/all/modules/gc_rpsgame/Core/View.php';
         self::executeAndOutput($command); }
 
     private static function executeAndOutput($command) {
