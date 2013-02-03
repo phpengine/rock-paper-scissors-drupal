@@ -16,6 +16,7 @@ class phpMDExecutor {
         $basePath = str_replace('build/config/phpmd', "", dirname(__FILE__));
         $command = 'phpmd '.$basePath.'src/sites/all/modules/gc_rpsgame html '.dirname(__FILE__).'/rules/standard.xml ';
         $command .= ' --reportfile '.$basePath.'build/reports/phpmd/html/report.html';
+        $command .= ' --ignore '.$basePath.'src/sites/all/modules/gc_rpsgame/Core/View.php';
         self::executeAndOutput($command); }
 
     private static function executeAndOutput($command) {
