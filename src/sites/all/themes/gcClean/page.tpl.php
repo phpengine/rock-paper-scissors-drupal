@@ -7,7 +7,7 @@
                 <!-- END #logo -->
             </div>
             <div id="slogan-right">
-                <h1>D-Testable from Golden Contact</h1>
+                <h1>Rock, Paper, Scissors - Drupal</h1>
             </div>
             <div id="logocaption">
                 <?php print ""; //$site_name_and_slogan ?>
