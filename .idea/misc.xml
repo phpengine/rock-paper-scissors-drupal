@@ -3,6 +3,7 @@
   <component name="HudsonMonitorComponent">
     <option name="timeOutTextField" value="30" />
   </component>
+  <component name="IdProvider" IDEtalkID="5D6E4CC46440BB68723DD39D114AE3F6" />
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
@@ -10,21 +11,5 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>ruby-1.8.7-p352</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
-  </component>
 </project>
 

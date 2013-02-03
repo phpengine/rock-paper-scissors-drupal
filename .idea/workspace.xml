@@ -2,109 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bc2eee-1608-415d-97a0-58004bfdcb79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RPSDrupal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/cucumber/execute-ci.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpmd/execute-ci.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/cucumber/execute-console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpmd/execute-console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpmd/execute-html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/phpunit.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ECP.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ebayCodePractice.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/ConfigureController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/ConfigureView.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/EbayRPSGameControlClassTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/EbayRPSGameRouterClassTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/Router.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spare/configClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.buildpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AutoLoad.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/AdministerPermissions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/Base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/GroupPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/Index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/Login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/Logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/Register.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/ResultsPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Controller/UserPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/Control.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/Database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/DatabaseHelpers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/Pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/Router.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/Session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/ValidationHelpers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Core/ViewHelpers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ECPForm/BaseForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ECPForm/LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ECPForm/RegistrationForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/Group.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/GroupRole.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/Role.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/UserData.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/UserRole.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Model/UserSession.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/AdministerPermissionsView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/DefaultLayout.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/GroupPageAllowedView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/GroupPageDeniedView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/GroupPageView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/IndexView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/LoginView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/RegisterSuccessView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/RegisterView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/ResultsPageView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/UserPageView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/daveCss.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/1341654820_cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/ebay.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/ebay_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/ebay_logo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/icon-facebook-color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/icon-flickr-color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/icon-twitter-color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/nextbutton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/nextbutton2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/nextbutton3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/p.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/paper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/playbutton.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/player1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/player2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/playnow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/scissor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/scissors.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/shortcodes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/social_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/stone.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/stone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/vs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/vs_ebay.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/vs_new.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/vs_new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/choosePlayers.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/config/cucumber/execute.php" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-console.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/config/phpmd/execute.php" afterPath="$PROJECT_DIR$/build/config/phpmd/execute-html.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build/config/phpunit/execute.php" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/README.txt" afterPath="$PROJECT_DIR$/src/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/build/config/phpunit/execute-ci.php" afterPath="$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/phpmd/rules/standard.xml" afterPath="$PROJECT_DIR$/build/config/phpmd/rules/standard.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ebayCodePractice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356981912114" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359900234102" ignored="false" />
     <file path="/UserSession.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356956997598" ignored="false" />
     <file path="/GroupRole.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356600456868" ignored="false" />
     <file path="/EbayCodePracticeModelUserClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356604771778" ignored="false" />
@@ -122,7 +30,7 @@
     <file path="/ResultsPage.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356618453395" ignored="false" />
     <file path="/GroupPage.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356619003039" ignored="false" />
     <file path="/ValidationHelpers.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356620323319" ignored="false" />
-    <file path="/a.dummy" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356826905540" ignored="false" />
+    <file path="/a.dummy" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359410850922" ignored="false" />
     <file path="/EbayCodePracticeModelUserRoleClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356624510568" ignored="false" />
     <file path="/EbayCodePracticeCoreModelFactoryClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356620798443" ignored="false" />
     <file path="/RegistrationForm.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356830690735" ignored="false" />
@@ -151,6 +59,18 @@
     <file path="/GroupPage.rb" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356911755082" ignored="false" />
     <file path="/EbayCodePracticeCoreDatabaseClassTest.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356962684185" ignored="false" />
     <file path="/Database.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1356963738682" ignored="false" />
+    <file path="$PROJECT_DIR$/../mvc-practice/db/mvc-practice.sql" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358467314080" ignored="false" />
+    <file path="$PROJECT_DIR$/../mvc-practice/src/Core/Database.php" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358529752188" ignored="false" />
+    <file path="/gc_helloworld.info" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358529433550" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nodeJs/helloWorld/helloWorld.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358530631472" ignored="false" />
+    <file path="/helloWorld.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358530210872" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nodeJs/miniAppy/index.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358552698902" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nodeJs/miniAppy/server.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358553517199" ignored="false" />
+    <file path="/index.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358550075472" ignored="false" />
+    <file path="$PROJECT_DIR$/../../nodeJs/miniAppy/router.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358549849959" ignored="false" />
+    <file path="/router.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358549255581" ignored="false" />
+    <file path="/server.js" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1358552723828" ignored="false" />
+    <file path="/style.css" changelist="d7bc2eee-1608-415d-97a0-58004bfdcb79" time="1359410272637" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +90,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -204,7 +125,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -213,32 +133,42 @@
     <favorites_list name="ebayCodePractice" />
     <favorites_list name="ebaycodepractice" />
     <favorites_list name="RPSDrupal" />
+    <favorites_list name="rock-paper-scissors-drupal" />
   </component>
   <component name="FileBrowser">
     <option name="currentFolder" value="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EbayCodePracticeCoreDatabaseClassTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeCoreDatabaseClassTest.php">
+      <file leaf-file-name="settings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/default/settings.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="8" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+            <state line="162" column="30" selection-start="6156" selection-end="6156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EbayCodePracticeModelUserDataClassTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php">
+      <file leaf-file-name="gc_rpsgame.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="75" selection-start="11168" selection-end="11168" vertical-scroll-proportion="-19.666666">
+            <state line="4" column="107" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="execute-ci.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/config/cucumber/execute-ci.php">
+      <file leaf-file-name="execute-ci-clover-coverage-xml.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="221" selection-end="266" vertical-scroll-proportion="0.4477612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execute-ci-xunit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -246,10 +176,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="execute-ci.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci.php">
+      <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Controller/Base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="74" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gc_rpsgame.info" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="56" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="288" column="21" selection-start="6660" selection-end="6660" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultLayout.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/DefaultLayout.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameIntroView.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/GameIntroView.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -273,14 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Core/ValidationHelpers.php" />
-        <option value="$PROJECT_DIR$/build/tests/features/UserPage.feature" />
-        <option value="$PROJECT_DIR$/build/tests/features/ResultsPage.feature" />
-        <option value="$PROJECT_DIR$/build/tests/features/step_definitions/UserPage.rb" />
-        <option value="$PROJECT_DIR$/build/tests/features/step_definitions/LogoutPage.rb" />
-        <option value="$PROJECT_DIR$/build/tests/features/step_definitions/ResultsPage.rb" />
-        <option value="$PROJECT_DIR$/build/tests/features/step_definitions/GroupPage.rb" />
-        <option value="$PROJECT_DIR$/build/tests/features/GroupPage.feature" />
         <option value="$PROJECT_DIR$/build/reports/cucumber/cucumber.json" />
         <option value="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php" />
         <option value="$PROJECT_DIR$/src/Model/UserData.php" />
@@ -289,6 +247,14 @@
         <option value="$PROJECT_DIR$/build/config/phpunit/execute-html.php" />
         <option value="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeCoreDatabaseClassTest.php" />
         <option value="$PROJECT_DIR$/src/Core/Database.php" />
+        <option value="$PROJECT_DIR$/src/sites/default/settings.php" />
+        <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/gc_helloworld.info" />
+        <option value="$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css" />
+        <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/Views/GameIntroView.tpl.php" />
+        <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/gc_helloworld.module" />
+        <option value="$PROJECT_DIR$/src/sites/all/modules/gc_helloworld/Controller/Base.php" />
+        <option value="$PROJECT_DIR$/src/sites/all/modules/ebay_rpsgame/Controller/Base.php" />
+        <option value="$PROJECT_DIR$/src/sites/all/modules/ebay_rpsgame/ebay_rpsgame.module" />
       </list>
     </option>
   </component>
@@ -329,10 +295,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.3" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="27" />
-    <option name="width" value="1368" />
-    <option name="height" value="742" />
+    <option name="x" value="108" />
+    <option name="y" value="69" />
+    <option name="width" value="1223" />
+    <option name="height" value="666" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -362,12 +328,76 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rock-paper-scissors-drupal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -375,98 +405,12 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpmd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RPSDrupal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cucumber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -501,7 +445,7 @@
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rock-paper-scissors-php" />
     <property name="project.structure.side.proportion" value="0.30000004" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -513,11 +457,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build/config/phpunit" />
       <recent name="$PROJECT_DIR$/build/config" />
       <recent name="$PROJECT_DIR$/build/tests/features" />
       <recent name="$PROJECT_DIR$/build/tests/features/step_definitions" />
       <recent name="$PROJECT_DIR$/build/config/cucumber" />
-      <recent name="$PROJECT_DIR$/build/config/phpunit" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spare" />
@@ -527,7 +471,7 @@
       <recent name="$PROJECT_DIR$/build/reports/phpmd/html" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testrunDbThrowsExceptionWhenCantConnectToDb">
+  <component name="RunManager">
     <configuration default="false" name="If I submit a correct register form I will have registered a new user" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="ECP" />
@@ -565,22 +509,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="\EbayCodePracticeModelUserSessionClassTest.testlogoutUserSessionDeletesASession" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="EbayCodePracticeModelUserSessionClassTest" file="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserSessionClassTest.php" scope="Method">
-        <option name="methodName" value="testlogoutUserSessionDeletesASession" />
-      </TestRunner>
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="\EbayCodePracticeModelUserClassTest.testSaveWillAddANewRecordToUserTableWithCorrectParameters" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="EbayCodePracticeModelUserClassTest" file="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php" scope="Method">
-        <option name="methodName" value="testSaveWillAddANewRecordToUserTableWithCorrectParameters" />
-      </TestRunner>
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="\EbayCodePracticeCoreDatabaseClassTest.testconstructorThrowsExceptionWhenCantConnectToDb" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="EbayCodePracticeCoreDatabaseClassTest" file="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeCoreDatabaseClassTest.php" scope="Method">
         <option name="methodName" value="testconstructorThrowsExceptionWhenCantConnectToDb" />
@@ -597,6 +525,22 @@
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="\EbayCodePracticeModelUserClassTest.testSaveWillAddANewRecordToUserTableWithCorrectParameters" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="EbayCodePracticeModelUserClassTest" file="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php" scope="Method">
+        <option name="methodName" value="testSaveWillAddANewRecordToUserTableWithCorrectParameters" />
+      </TestRunner>
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="\EbayCodePracticeModelUserSessionClassTest.testlogoutUserSessionDeletesASession" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="EbayCodePracticeModelUserSessionClassTest" file="$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserSessionClassTest.php" scope="Method">
+        <option name="methodName" value="testlogoutUserSessionDeletesASession" />
+      </TestRunner>
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -605,17 +549,6 @@
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="ECP" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -653,25 +586,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
-      <module name="" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -773,20 +687,11 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.If I submit a correct register form I will have registered a new user" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeModelUserSessionClassTest.testlogoutUserSessionDeletesASession" />
-      <item index="2" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeModelUserClassTest.testSaveWillAddANewRecordToUserTableWithCorrectParameters" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testconstructorThrowsExceptionWhenCantConnectToDb" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testrunDbThrowsExceptionWhenCantConnectToDb" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testconstructorThrowsExceptionWhenCantConnectToDb" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testrunDbThrowsExceptionWhenCantConnectToDb" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeModelUserClassTest.testSaveWillAddANewRecordToUserTableWithCorrectParameters" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeModelUserSessionClassTest.testlogoutUserSessionDeletesASession" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testrunDbThrowsExceptionWhenCantConnectToDb" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeCoreDatabaseClassTest.testconstructorThrowsExceptionWhenCantConnectToDb" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeModelUserClassTest.testSaveWillAddANewRecordToUserTableWithCorrectParameters" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.\EbayCodePracticeModelUserSessionClassTest.testlogoutUserSessionDeletesASession" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.If I submit a correct register form I will have registered a new user" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -862,45 +767,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="true" />
+    <frame x="108" y="69" width="1223" height="666" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4302721" sideWeight="0.4939394" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hudson Information" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2755102" sideWeight="0.5007576" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24545455" sideWeight="0.5697279" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hudson Jobs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27497864" sideWeight="0.5704467" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5272109" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hudson Information" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="SimpleHttpClient" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.548552" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="SimpleHttpClient" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42955327" sideWeight="0.4939394" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Navigate" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32473445" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Network Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="FileBrowser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Colour Chooser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hudson Jobs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
     </layout>
@@ -999,16 +906,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeCoreDatabaseClassTest.php">
+    <entry file="file://$PROJECT_DIR$/src/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="8" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+        <state line="162" column="30" selection-start="6156" selection-end="6156" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php">
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="75" selection-start="11168" selection-end="11168" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="56" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1018,50 +932,77 @@
         <state line="8" column="37" selection-start="141" selection-end="171" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeECPFormRegistrationFormClassTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="1589" selection-end="1589" vertical-scroll-proportion="-4.375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserSessionClassTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="38" selection-start="3393" selection-end="3393" vertical-scroll-proportion="-15.833333" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeModelUserDataClassTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="75" selection-start="11168" selection-end="11168" vertical-scroll-proportion="-19.666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/php/PHPUnit/Framework/Assert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2134" column="0" selection-start="69787" selection-end="69787" vertical-scroll-proportion="-0.03187251" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/php/PHPUnit/Framework/Constraint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3692" selection-end="3692" vertical-scroll-proportion="-0.031067962" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/tests/phpunit/EbayCodePracticeCoreDatabaseClassTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="8" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/config/cucumber/execute-ci.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="30" selection-start="6156" selection-end="6156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Assets/js/choosePlayers.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci.php">
+    <entry file="file://$PROJECT_DIR$/src/sites/all/themes/gcClean/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="288" column="21" selection-start="6660" selection-end="6660" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/DefaultLayout.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="74" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="56" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/Views/GameIntroView.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sites/all/modules/gc_rpsgame/gc_rpsgame.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="107" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-xunit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/config/phpunit/execute-ci-clover-coverage-xml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="221" selection-end="266" vertical-scroll-proportion="0.4477612">
           <folding />
         </state>
       </provider>
@@ -1083,7 +1024,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>BashSupport</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1095,7 +1036,6 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>activemodel (v3.2.9, RVM: ruby-1.9.3-p327 (1)) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1107,7 +1047,6 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>RVM: ruby-1.9.3-p327 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1123,7 +1062,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.30000004" />
+                <option value="0.23193473" />
                 <option value="0.5" />
               </list>
             </option>
