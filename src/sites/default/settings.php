@@ -55,10 +55,10 @@
  * @code
  * array(
  *   'driver' => 'mysql',
- *   'database' => 'databasename',
- *   'username' => 'username',
- *   'password' => 'password',
- *   'host' => 'localhost',
+      'database' => 'rpsdrupal'
+      'username' => 'rpsdrupal'
+      'password' => 'rpsdrupal'
+      'host' => '127.0.0.1'
  *   'port' => 3306,
  *   'prefix' => 'myprefix_',
  *   'collation' => 'utf8_general_ci',
@@ -105,10 +105,10 @@
  * @code
  * $databases['default']['default'] = array(
  *   'driver' => 'mysql',
- *   'database' => 'databasename',
- *   'username' => 'username',
- *   'password' => 'password',
- *   'host' => 'localhost',
+      'database' => 'rpsdrupal'
+      'username' => 'rpsdrupal'
+      'password' => 'rpsdrupal'
+      'host' => '127.0.0.1'
  *   'prefix' => 'main_',
  *   'collation' => 'utf8_general_ci',
  * );
@@ -180,35 +180,35 @@
  * @code
  *   $databases['default']['default'] = array(
  *     'driver' => 'mysql',
- *     'database' => 'databasename',
- *     'username' => 'username',
- *     'password' => 'password',
- *     'host' => 'localhost',
+      'database' => 'rpsdrupal'
+      'username' => 'rpsdrupal'
+      'password' => 'rpsdrupal'
+      'host' => '127.0.0.1'
  *     'prefix' => '',
  *   );
  *   $databases['default']['default'] = array(
  *     'driver' => 'pgsql',
- *     'database' => 'databasename',
- *     'username' => 'username',
- *     'password' => 'password',
- *     'host' => 'localhost',
+      'database' => 'rpsdrupal'
+      'username' => 'rpsdrupal'
+      'password' => 'rpsdrupal'
+      'host' => '127.0.0.1'
  *     'prefix' => '',
  *   );
  *   $databases['default']['default'] = array(
  *     'driver' => 'sqlite',
- *     'database' => '/path/to/databasefilename',
+      'database' => 'rpsdrupal'
  *   );
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'RPSDrupal',
-      'username' => 'root',
-      'password' => 'blueFire45',
-      'host' => 'localhost',
+      'database' => 'rpsdrupal',
+      'username' => 'rpsdrupal',
+      'password' => 'rpsdrupal',
+      'host' => '127.0.0.1',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',

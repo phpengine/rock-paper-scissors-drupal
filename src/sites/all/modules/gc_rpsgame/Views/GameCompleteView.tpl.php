@@ -26,7 +26,7 @@
     </div> <!-- end resultfieldset -->
 
     <div class="vsHolder">
-        <img src="sites/all/modules/gc_rpsgame/Assets/images/vs_ebay.jpg" style="border:none; float:left;" />
+        <img src="sites/all/modules/gc_rpsgame/Assets/images/vs_ebay.jpg" />
     </div>
 
     <div class="playimg">

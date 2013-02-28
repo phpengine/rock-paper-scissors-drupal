@@ -65,16 +65,21 @@ input#startGameButton{
 }
 
 div.gamingWrap{
-    margin: 0: auto;
+    margin: 0 auto;
     display: inline-block;
-    width: 940px;
+    width: 100%;
     text-align:center;
 }
 
 div.vsHolder{
     border:none;
     float:left;
-    width:430px;
+    width:480px;
+}
+
+div.vsHolder img{
+    margin: 0 auto;
+    display: block;
 }
 
 div.playimg{

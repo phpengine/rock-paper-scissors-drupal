@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation-array>
+  <bug>
+    <message>Avoid unused parameters such as &apos;$templateData&apos;.</message>
+    <priority>NORMAL</priority>
+    <key>0</key>
+    <lineRanges>
+      <range>
+        <start>14</start>
+        <end>14</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>14</primaryLineNumber>
+    <fileName>/var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame/Core/View.php</fileName>
+    <moduleName></moduleName>
+    <category>Unused Code Rules</category>
+    <type>UnusedFormalParameter</type>
+    <contextHashCode>124415909</contextHashCode>
+    <origin>pmd</origin>
+    <pathName>src/sites/all/modules/gc_rpsgame/Core</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <tooltip></tooltip>
+  </bug>
+  <bug>
+    <message>Avoid unused parameters such as &apos;$pageVars&apos;.</message>
+    <priority>NORMAL</priority>
+    <key>2</key>
+    <lineRanges>
+      <range>
+        <start>21</start>
+        <end>21</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>21</primaryLineNumber>
+    <fileName reference="../../bug/fileName"/>
+    <moduleName reference="../../bug/moduleName"/>
+    <category>Unused Code Rules</category>
+    <type>UnusedFormalParameter</type>
+    <contextHashCode>1135795159</contextHashCode>
+    <origin>pmd</origin>
+    <pathName>src/sites/all/modules/gc_rpsgame/Core</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <tooltip></tooltip>
+  </bug>
+  <bug>
+    <message reference="../../bug[2]/message"/>
+    <priority>NORMAL</priority>
+    <key>1</key>
+    <lineRanges>
+      <range>
+        <start>14</start>
+        <end>14</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>14</primaryLineNumber>
+    <fileName reference="../../bug/fileName"/>
+    <moduleName reference="../../bug/moduleName"/>
+    <category>Unused Code Rules</category>
+    <type>UnusedFormalParameter</type>
+    <contextHashCode>124415909</contextHashCode>
+    <origin>pmd</origin>
+    <pathName>src/sites/all/modules/gc_rpsgame/Core</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+    <tooltip></tooltip>
+  </bug>
+</annotation-array>

@@ -1,0 +1,38 @@
+Changes in branch origin/HEAD, between a24d42e95f232cca2da0c0c871a8f06e46aade9e and e0ab72d2927d459184e38374668c156695d0d618
+commit e0ab72d2927d459184e38374668c156695d0d618
+tree a9a9c5f034ef2839f4f3e462eeea3aeabb2ad71a
+parent a24d42e95f232cca2da0c0c871a8f06e46aade9e
+author Golden Dave <golden@goldenballs.(none)> 1359906474 +0000
+committer Golden Dave <golden@goldenballs.(none)> 1359906474 +0000
+
+    for tests
+
+:100755 100755 c765f3ab19362f4ba4f8e4c4ab3682c00949b0d2 bd011c2bffeb4876d5699e28eebfe008a5bf8264 M	build/tests/phpunit/Controller/BaseClassTest.php
+:100755 100755 3dfb96409fc202fa188882c107344cd4bc6114ac 44f5be2253cc9e5744a48a0b9e9cfa9c9e66e4ed M	build/tests/phpunit/Controller/GameClassTest.php
+:100755 100755 efc067613a556ca040d3efc8ba1ec065da992ec8 746381b7d04dfa62497d04b58c5b66235c7fa2e4 M	build/tests/phpunit/Controller/PageClassTest.php
+:100755 100755 b857c2d1a2c241feb2afe5760425b2aead930da4 75222bf36a7c0113c4233da2e70ee50923a6a3ef M	build/tests/phpunit/Core/ControlClassTest.php
+:100755 100755 37020c9b4127b69f7acb848d24d9bb38719049c6 fc069d8451316650e0dda991e405a40b618802ff M	build/tests/phpunit/Core/DrupalHelperClassTest.php
+:100755 100755 1910187ab2af7319c53ed01ab452a8e58a56730f 33cbb007d22bac4d2948ff6525040ef0c8720554 M	build/tests/phpunit/Core/RouterClassTest.php
+:100755 100755 a7f3724b1f773376029d61692abf95ecdcd94cab 912dc3bcb01f4d6c1f3bd1bb33bb558dca9504d7 M	build/tests/phpunit/Core/ViewClassTest.php
+:100755 100755 c8165f30169c227ca5860ce021c97fbff423c76a 3e93d9e5b36ba917547735b716ddffc772e987bb M	build/tests/phpunit/Model/FullCvPageClassTest.php
+:100755 100755 1469dd4c2f1286a7f233949fd9a86e4387a6b600 54461c1028f25292f94ef0a1b9b68adf43f72d84 M	build/tests/phpunit/Model/HiPageClassTest.php
+:100755 100755 8148fbfc11f63fc0537169627936340a908a9b02 747cf7753c99e4fbe9ff63291201f45ab21f883c M	build/tests/phpunit/Model/JuicyBitsPageClassTest.php
+Changes in branch origin/master, between a24d42e95f232cca2da0c0c871a8f06e46aade9e and e0ab72d2927d459184e38374668c156695d0d618
+commit e0ab72d2927d459184e38374668c156695d0d618
+tree a9a9c5f034ef2839f4f3e462eeea3aeabb2ad71a
+parent a24d42e95f232cca2da0c0c871a8f06e46aade9e
+author Golden Dave <golden@goldenballs.(none)> 1359906474 +0000
+committer Golden Dave <golden@goldenballs.(none)> 1359906474 +0000
+
+    for tests
+
+:100755 100755 c765f3ab19362f4ba4f8e4c4ab3682c00949b0d2 bd011c2bffeb4876d5699e28eebfe008a5bf8264 M	build/tests/phpunit/Controller/BaseClassTest.php
+:100755 100755 3dfb96409fc202fa188882c107344cd4bc6114ac 44f5be2253cc9e5744a48a0b9e9cfa9c9e66e4ed M	build/tests/phpunit/Controller/GameClassTest.php
+:100755 100755 efc067613a556ca040d3efc8ba1ec065da992ec8 746381b7d04dfa62497d04b58c5b66235c7fa2e4 M	build/tests/phpunit/Controller/PageClassTest.php
+:100755 100755 b857c2d1a2c241feb2afe5760425b2aead930da4 75222bf36a7c0113c4233da2e70ee50923a6a3ef M	build/tests/phpunit/Core/ControlClassTest.php
+:100755 100755 37020c9b4127b69f7acb848d24d9bb38719049c6 fc069d8451316650e0dda991e405a40b618802ff M	build/tests/phpunit/Core/DrupalHelperClassTest.php
+:100755 100755 1910187ab2af7319c53ed01ab452a8e58a56730f 33cbb007d22bac4d2948ff6525040ef0c8720554 M	build/tests/phpunit/Core/RouterClassTest.php
+:100755 100755 a7f3724b1f773376029d61692abf95ecdcd94cab 912dc3bcb01f4d6c1f3bd1bb33bb558dca9504d7 M	build/tests/phpunit/Core/ViewClassTest.php
+:100755 100755 c8165f30169c227ca5860ce021c97fbff423c76a 3e93d9e5b36ba917547735b716ddffc772e987bb M	build/tests/phpunit/Model/FullCvPageClassTest.php
+:100755 100755 1469dd4c2f1286a7f233949fd9a86e4387a6b600 54461c1028f25292f94ef0a1b9b68adf43f72d84 M	build/tests/phpunit/Model/HiPageClassTest.php
+:100755 100755 8148fbfc11f63fc0537169627936340a908a9b02 747cf7753c99e4fbe9ff63291201f45ab21f883c M	build/tests/phpunit/Model/JuicyBitsPageClassTest.php

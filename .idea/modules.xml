@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/untitled/RPSDrupal.iml" filepath="$PROJECT_DIR$/untitled/RPSDrupal.iml" />
+      <module fileurl="file://$PROJECT_DIR$//rock-paper-scissors-drupal.iml" filepath="$PROJECT_DIR$//rock-paper-scissors-drupal.iml" />
     </modules>
   </component>
 </project>

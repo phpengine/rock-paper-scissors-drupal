@@ -1,0 +1,236 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace - hudson.remoting.LocalChannel@1b271ded
+Using strategy: Default
+Last Built Revision: Revision e02420bf6066e45cf0ea6d66fe5d7197ff71f3ac (origin/HEAD, origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from /var/www/gitRepos/rock-paper-scissors-drupal
+Seen branch in repository origin/HEAD
+Seen branch in repository origin/master
+Commencing build of Revision e02420bf6066e45cf0ea6d66fe5d7197ff71f3ac (origin/HEAD, origin/master)
+Checking out Revision e02420bf6066e45cf0ea6d66fe5d7197ff71f3ac (origin/HEAD, origin/master)
+Warning : There are multiple branch changesets here
+Starting xvnc
+[workspace] $ vncserver :10 -localhost -nolisten tcp
+
+New 'goldenballs:10 ()' desktop is goldenballs:10
+
+Starting applications specified in /var/lib/jenkins/.vnc/xstartup
+Log file is /var/lib/jenkins/.vnc/goldenballs:10.log
+
+[workspace] $ /bin/sh -xe /tmp/hudson9191524348703077237.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpunit/execute-console.php
+
+Output for Command phpunit ../../tests/phpunit/:
+PHPUnit 3.7.10 by Sebastian Bergmann.
+
+Configuration read from /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpunit/phpunit.xml
+
+................................................................. 65 / 73 ( 89%)
+........
+
+Time: 0 seconds, Memory: 8.00Mb
+
+OK (73 tests, 100 assertions)
+[workspace] $ /bin/sh -xe /tmp/hudson4058546137386053058.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpunit/execute-html.php
+
+Output for Command rm -rf ../../reports/phpunit/html/*:
+
+Output for Command phpunit --coverage-html ../../reports/phpunit/html/ ../../tests/phpunit/:
+PHPUnit 3.7.10 by Sebastian Bergmann.
+
+Configuration read from /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpunit/phpunit.xml
+
+................................................................. 65 / 73 ( 89%)
+........
+
+Time: 1 second, Memory: 11.00Mb
+
+OK (73 tests, 100 assertions)
+
+Generating code coverage report in HTML format ... done
+[workspace] $ /bin/sh -xe /tmp/hudson2577581282920652120.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpunit/execute-ci-xunit.php
+
+Output for Command phpunit --configuration phpunit.xml --log-junit ../../reports/phpunit/junit/junit.xml ../../tests/phpunit/:
+PHPUnit 3.7.10 by Sebastian Bergmann.
+
+Configuration read from /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpunit/phpunit.xml
+
+................................................................. 65 / 73 ( 89%)
+........
+
+Time: 0 seconds, Memory: 8.25Mb
+
+OK (73 tests, 100 assertions)
+[workspace] $ /bin/sh -xe /tmp/hudson1329200058480585060.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpunit/execute-ci-clover-coverage-xml.php
+
+Output for Command phpunit --configuration phpunit.xml --coverage-clover ../../reports/phpunit/xml/report.xml ../../tests/phpunit/:
+PHPUnit 3.7.10 by Sebastian Bergmann.
+
+Configuration read from /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpunit/phpunit.xml
+
+................................................................. 65 / 73 ( 89%)
+........
+
+Time: 1 second, Memory: 11.00Mb
+
+OK (73 tests, 100 assertions)
+
+Generating code coverage report in Clover XML format ... done
+[workspace] $ /bin/sh -xe /tmp/hudson2766265574887204358.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpmd/execute-console.php
+
+Output for Command phpmd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame text /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpmd/rules/standard.xml  --exclude /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame/Core/View.php:
+
+[workspace] $ /bin/sh -xe /tmp/hudson7362346474033580163.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpmd/execute-ci.php
+
+Output for Command phpmd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame xml /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpmd/rules/standard.xml  --reportfile /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/reports/phpmd/xml/report.xml --exclude /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame/Core/View.php:
+[workspace] $ /bin/sh -xe /tmp/hudson6128518570451758313.sh
++ cd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
++ php build/config/phpmd/execute-html.php
+
+Output for Command phpmd /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame html /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/config/phpmd/rules/standard.xml  --reportfile /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/reports/phpmd/html/report.html --exclude /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/src/sites/all/modules/gc_rpsgame/Core/View.php:
+[workspace] $ /bin/bash /tmp/hudson4215794726657450056.sh
+Using /var/lib/jenkins/.rvm/gems/ruby-1.9.3-p374
+Using rake (10.0.3) 
+Using i18n (0.6.1) 
+Using multi_json (1.5.0) 
+Using activesupport (3.2.9) 
+Using builder (3.0.4) 
+Using activemodel (3.2.9) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.35) 
+Using activerecord (3.2.9) 
+Using addressable (2.3.2) 
+Using highline (1.6.15) 
+Using net-ssh (2.6.2) 
+Using net-scp (1.0.4) 
+Using net-sftp (2.0.5) 
+Using net-ssh-gateway (1.1.0) 
+Using capistrano (2.13.5) 
+Using mime-types (1.19) 
+Using nokogiri (1.5.5) 
+Using rack (1.4.1) 
+Using rack-test (0.6.2) 
+Using ffi (1.2.0) 
+Using childprocess (0.3.6) 
+Using websocket (1.0.4) 
+Using libwebsocket (0.1.7.1) 
+Using rubyzip (0.9.9) 
+Using selenium-webdriver (2.27.2) 
+Using xpath (1.0.0) 
+Using capybara (2.0.1) 
+Using diff-lcs (1.1.3) 
+Using json (1.7.5) 
+Using gherkin (2.11.5) 
+Using cucumber (1.2.1) 
+Using mysql2 (0.3.11) 
+Using rspec-core (2.12.2) 
+Using rspec-expectations (2.12.0) 
+Using rspec-mocks (2.12.0) 
+Using rspec (2.12.0) 
+Using bundler (1.2.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+mkdir -p build/reports/cucumber/archives
+mkdir -p build/reports/cucumber/screenshots
+Feature: Reaching the Full CV Page
+
+  Scenario: I can load the Full CV page # features/FullCVPage.feature:3
+    Given I visit the Full CV page      # features/step_definitions/FullCV.rb:1
+    Then I should see "Full CV"         # features/step_definitions/basic_steps.rb:5
+
+Feature: Reaching the Hi Page
+
+  Scenario: I can load the hi page # features/HiPage.feature:3
+    Given I visit the hi page      # features/step_definitions/HiPage.rb:1
+    Then I should see "Hi eBay"    # features/step_definitions/basic_steps.rb:5
+
+Feature: Reaching the website
+
+  Scenario: I can load the homepage     # features/Homepage.feature:3
+    Given I visit the homepage          # features/step_definitions/basic_steps.rb:1
+    Then I should see game Start Button # features/step_definitions/basic_steps.rb:17
+
+Feature: Reaching the Juicy Bits Page
+
+  Scenario: I can load the Juicy Bits page # features/JuicyBitsPage.feature:3
+    Given I visit the Juicy Bits page      # features/step_definitions/JuicyBits.rb:1
+    Then I should see "juicy"              # features/step_definitions/basic_steps.rb:5
+
+4 scenarios (4 passed)
+8 steps (8 passed)
+0m8.224s
+[workspace] $ /bin/bash /tmp/hudson7772869711682936274.sh
+Using /var/lib/jenkins/.rvm/gems/ruby-1.9.3-p374
+Using rake (10.0.3) 
+Using i18n (0.6.1) 
+Using multi_json (1.5.0) 
+Using activesupport (3.2.9) 
+Using builder (3.0.4) 
+Using activemodel (3.2.9) 
+Using arel (3.0.2) 
+Using tzinfo (0.3.35) 
+Using activerecord (3.2.9) 
+Using addressable (2.3.2) 
+Using highline (1.6.15) 
+Using net-ssh (2.6.2) 
+Using net-scp (1.0.4) 
+Using net-sftp (2.0.5) 
+Using net-ssh-gateway (1.1.0) 
+Using capistrano (2.13.5) 
+Using mime-types (1.19) 
+Using nokogiri (1.5.5) 
+Using rack (1.4.1) 
+Using rack-test (0.6.2) 
+Using ffi (1.2.0) 
+Using childprocess (0.3.6) 
+Using websocket (1.0.4) 
+Using libwebsocket (0.1.7.1) 
+Using rubyzip (0.9.9) 
+Using selenium-webdriver (2.27.2) 
+Using xpath (1.0.0) 
+Using capybara (2.0.1) 
+Using diff-lcs (1.1.3) 
+Using json (1.7.5) 
+Using gherkin (2.11.5) 
+Using cucumber (1.2.1) 
+Using mysql2 (0.3.11) 
+Using rspec-core (2.12.2) 
+Using rspec-expectations (2.12.0) 
+Using rspec-mocks (2.12.0) 
+Using rspec (2.12.0) 
+Using bundler (1.2.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+mkdir -p build/reports/cucumber/archives
+mkdir -p build/reports/cucumber/screenshots
+/var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/tests
+Terminating xvnc.
+$ vncserver -kill :10
+Killing Xvnc4 process ID 16670
+[PMD] Collecting PMD analysis files...
+[PMD] Finding all files that match the pattern build/reports/phpmd/xml/report.xml
+[PMD] Parsing 1 files in /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace
+[PMD] Successfully parsed file /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/reports/phpmd/xml/report.xml of module  with 0 warnings.
+[PMD] Computing warning deltas based on reference build #12
+Publishing Clover coverage report...
+Publishing Clover HTML report...
+Publishing Clover XML report...
+Publishing Clover coverage results...
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/reports/phpmd/html to /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/htmlreports/PHP_MD_Report
+Recording test results
+[CucumberReportPublisher] Compiling Cucumber Html Reports ...
+[CucumberReportPublisher] detected this build is running on the master 
+[CucumberReportPublisher] copying json to reports directory: /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/builds/2013-02-03_16-38-46/cucumber-html-reports
+[CucumberReportPublisher] Generating HTML reports
+Finished: SUCCESS

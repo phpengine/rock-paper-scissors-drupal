@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <name>junit.xml</name>
+      <stdout></stdout>
+      <stderr></stderr>
+      <duration>0.0</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>junit.xml</className>
+          <testName>&lt;init&gt;</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Test report file /var/lib/jenkins/jobs/Rock_Paper_Scissors_Drupal/workspace/build/reports/phpunit/junit/junit.xml was length 0</errorStackTrace>
+          <errorDetails></errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.0</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
