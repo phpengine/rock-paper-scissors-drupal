@@ -74,7 +74,7 @@ class AutoPilot {
 
     // Cuke Conf Addition Variables
     public $cukeConfAdditionExecute = true;
-    public $cukeConfAdditionURI = 'rps-drupal.testsite.tld';
+    public $cukeConfAdditionURI = 'http://rps-drupal.testsite.tld';
 
     // Cuke Conf Deletion Variables
     public $cukeConfDeletionExecute = false;
