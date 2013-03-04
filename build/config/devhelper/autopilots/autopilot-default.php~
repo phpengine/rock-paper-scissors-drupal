@@ -1,0 +1,10 @@
+<?php
+
+Namespace Core ;
+
+class AutoPilot {
+
+    public const gitCheckoutProjectOriginRepo = "http://git:deploy1995@git.gcdevel.co.uk";
+    public const gitCheckoutProjectOriginRepo = "http://git:deploy1995@git.gcdevel.co.uk";
+
+}

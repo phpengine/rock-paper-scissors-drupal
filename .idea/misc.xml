@@ -3,13 +3,9 @@
   <component name="HudsonMonitorComponent">
     <option name="timeOutTextField" value="30" />
   </component>
-  <component name="IdProvider" IDEtalkID="5D6E4CC46440BB68723DD39D114AE3F6" />
-  <component name="ProjectResources">
-    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="RVM: ruby-1.9.3-p194" project-jdk-type="RUBY_SDK">
+  <component name="IdProvider" IDEtalkID="4E2161617FCFA5EC673CD8F0E1918435" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
 
