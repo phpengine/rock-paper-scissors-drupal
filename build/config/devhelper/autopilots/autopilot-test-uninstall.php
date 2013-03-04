@@ -46,10 +46,11 @@ class AutoPilot {
 
     // DB Configuration Reset - App Settings
     public $dbResetExecute = true;
+    public $dbResetPlatform = 'drupal7' ;
 
     // DB Configuration Setup - App Settings
     public $dbConfigureExecute = false;
-    public $dbConfigurePlatform = null ;
+    public $dbConfigurePlatform = null;
     public $dbConfigureDBHost = null;
     public $dbConfigureDBUser = null;
     public $dbConfigureDBPass = null;
