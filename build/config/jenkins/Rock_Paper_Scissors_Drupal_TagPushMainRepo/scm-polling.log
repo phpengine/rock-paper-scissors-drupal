@@ -1,0 +1,12 @@
+Started on Mar 5, 2013 4:46:20 PM
+Using strategy: Default
+[poll] Last Build : #12
+[poll] Last Built Revision: Revision c0cf99afa3cbbe1cb234718da335a0a6418eb0fc (origin/master)
+Fetching changes from the remote Git repositories
+Fetching upstream changes from http://git:deploy1995@git.gcdevel.co.uk/rock-paper-scissors-drupal
+Polling for changes in
+Seen branch in repository origin/master
+Seen branch in repository origin1/HEAD
+Seen branch in repository origin1/master
+Done. Took 9.5 sec
+No changes

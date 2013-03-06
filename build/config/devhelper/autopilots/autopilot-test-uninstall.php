@@ -34,15 +34,20 @@ class AutoPilot {
 
     // Virtual Host Editor Addition Variables
     public $virtualHostEditorAdditionExecute = false;
-    public $virtualHostEditorAdditionDocRoot;
+    public $virtualHostEditorAdditionDocRoot = null;
     public $virtualHostEditorAdditionURL = null;
+    public $virtualHostEditorAdditionFileSuffix = null;
     public $virtualHostEditorAdditionIp = null;
     public $virtualHostEditorAdditionDirectory = null;
+    public $virtualHostEditorAdditionVHostEnable = false;
+    public $virtualHostEditorAdditionSymLinkDirectory = null;
 
     // Virtual Host Editor Deletion Variables
     public $virtualHostEditorDeletionExecute = true;
     public $virtualHostEditorDeletionDirectory = '/etc/apache2/sites-available';
-    public $virtualHostEditorDeletionTarget = array('rps-drupal.testsite.tld');
+    public $virtualHostEditorDeletionTarget = array('rps-drupal.testsite.tld.conf');
+    public $virtualHostEditorDeletionVHostDisable = false;
+    public $virtualHostEditorDeletionSymLinkDirectory = null;
 
     // DB Configuration Reset - App Settings
     public $dbResetExecute = true;

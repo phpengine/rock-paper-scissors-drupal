@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Rock, Paper, Scissors - The classic game implemented in Drupal, using my own framework, DTestable, with &#xd;
+OO PHP, MVC, OO JS, and fully tested for PHPUnit, Jasmine and Cucumber Ruby</description>
+  <logRotator>
+    <daysToKeep>-1</daysToKeep>
+    <numToKeep>10</numToKeep>
+    <artifactDaysToKeep>-1</artifactDaysToKeep>
+    <artifactNumToKeep>-1</artifactNumToKeep>
+  </logRotator>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty>
+      <projectUrl>https://github.com/phpengine/rock-paper-scissors-drupal/</projectUrl>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <org.jenkins.ci.plugins.html5__notifier.JobPropertyImpl>
+      <skip>true</skip>
+    </org.jenkins.ci.plugins.html5__notifier.JobPropertyImpl>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <name></name>
+        <refspec></refspec>
+        <url>http://git:deploy1995@git.gcdevel.co.uk/rock-paper-scissors-drupal</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>**</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <disableSubmodules>false</disableSubmodules>
+    <recursiveSubmodules>false</recursiveSubmodules>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <authorOrCommitter>false</authorOrCommitter>
+    <clean>false</clean>
+    <wipeOutWorkspace>false</wipeOutWorkspace>
+    <pruneBranches>false</pruneBranches>
+    <remotePoll>false</remotePoll>
+    <ignoreNotifyCommit>false</ignoreNotifyCommit>
+    <useShallowClone>false</useShallowClone>
+    <buildChooser class="hudson.plugins.git.util.DefaultBuildChooser"/>
+    <gitTool>Default</gitTool>
+    <browser class="hudson.plugins.git.browser.ViewGitWeb">
+      <url>http://localgit/</url>
+      <projectName>Rock, Paper, Scissors - Drupal</projectName>
+    </browser>
+    <submoduleCfg class="list"/>
+    <relativeTargetDir></relativeTargetDir>
+    <reference></reference>
+    <excludedRegions></excludedRegions>
+    <excludedUsers></excludedUsers>
+    <gitConfigName></gitConfigName>
+    <gitConfigEmail></gitConfigEmail>
+    <skipTag>false</skipTag>
+    <includedRegions></includedRegions>
+    <scmName></scmName>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector">
+    <com.cloudbees.jenkins.GitHubPushTrigger>
+      <spec></spec>
+    </com.cloudbees.jenkins.GitHubPushTrigger>
+    <hudson.triggers.SCMTrigger>
+      <spec>*/15 * * * *</spec>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Executing shell devhelper to install the database, vhost, host file entry and configure db and cuke settings in project&quot;
+cd $WORKSPACE
+echo &quot;sudo devhelper install autopilot build/config/devhelper/autopilots/autopilot-test-install.php&quot;
+sudo devhelper install autopilot build/config/devhelper/autopilots/autopilot-test-install.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Unit with Console output&quot;
+cd $WORKSPACE
+php build/config/phpunit/execute-console.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Unit with HTML output for reporting&quot;
+cd $WORKSPACE
+php build/config/phpunit/execute-html.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Unit with XML output for reporting&quot;
+cd $WORKSPACE
+php build/config/phpunit/execute-ci-xunit.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Unit with XML Clover Coverage output for reporting&quot;
+cd $WORKSPACE
+php build/config/phpunit/execute-ci-clover-coverage-xml.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Mess Detector with Console output&quot;
+cd $WORKSPACE
+php build/config/phpmd/execute-console.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Mess Detector with XML output for reporting&quot;
+cd $WORKSPACE
+php build/config/phpmd/execute-ci.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Execute PHP Mess Detector with HTML output&quot;
+cd $WORKSPACE
+php build/config/phpmd/execute-html.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Run Cucumber with Console Output&quot;
+[[ -s &quot;$HOME/.rvm/scripts/rvm&quot; ]] &amp;&amp; . &quot;$HOME/.rvm/scripts/rvm&quot;
+rvm use 1.9.3
+cd $WORKSPACE
+bundle install
+cd $WORKSPACE/build/tests
+cucumber</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;Run Cucumber with JSON Output&quot;
+[[ -s &quot;$HOME/.rvm/scripts/rvm&quot; ]] &amp;&amp; . &quot;$HOME/.rvm/scripts/rvm&quot;
+rvm use 1.9.3
+cd $WORKSPACE
+bundle install
+cd $WORKSPACE/build/tests
+cucumber --format json -o cucumber.json
+pwd
+mv cucumber.json ../reports/cucumber/json/</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;executing shell devhelper to uninstall the database, vhost and host file entry&quot;
+cd $WORKSPACE
+echo &quot;sudo devhelper install autopilot build/config/devhelper/autopilots/autopilot-test-uninstall.php&quot;
+sudo devhelper install autopilot build/config/devhelper/autopilots/autopilot-test-uninstall.php</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+echo &quot;executing shell devhelper to reset the conf values for db and cuke to generic devhelper values, so we push blank configurations&quot;
+cd $WORKSPACE
+echo &quot;sudo devhelper install autopilot build/config/devhelper/autopilots/autopilot-test-reset-for-push.php&quot;
+sudo devhelper install autopilot build/config/devhelper/autopilots/autopilot-test-reset-for-push.php</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.plugins.pmd.PmdPublisher>
+      <healthy></healthy>
+      <unHealthy></unHealthy>
+      <thresholdLimit>low</thresholdLimit>
+      <pluginName>[PMD] </pluginName>
+      <defaultEncoding></defaultEncoding>
+      <canRunOnFailed>true</canRunOnFailed>
+      <useStableBuildAsReference>false</useStableBuildAsReference>
+      <useDeltaValues>false</useDeltaValues>
+      <thresholds>
+        <unstableTotalAll></unstableTotalAll>
+        <unstableTotalHigh></unstableTotalHigh>
+        <unstableTotalNormal></unstableTotalNormal>
+        <unstableTotalLow></unstableTotalLow>
+        <failedTotalAll></failedTotalAll>
+        <failedTotalHigh></failedTotalHigh>
+        <failedTotalNormal></failedTotalNormal>
+        <failedTotalLow></failedTotalLow>
+      </thresholds>
+      <shouldDetectModules>false</shouldDetectModules>
+      <dontComputeNew>true</dontComputeNew>
+      <doNotResolveRelativePaths>true</doNotResolveRelativePaths>
+      <pattern>build/reports/phpmd/xml/report.xml</pattern>
+    </hudson.plugins.pmd.PmdPublisher>
+    <org.jenkinsci.plugins.cloverphp.CloverPublisher>
+      <publishHtmlReport>true</publishHtmlReport>
+      <reportDir>build/reports/phpunit/html</reportDir>
+      <xmlLocation>build/reports/phpunit/xml/report.xml</xmlLocation>
+      <disableArchiving>false</disableArchiving>
+      <healthyTarget>
+        <methodCoverage>70</methodCoverage>
+        <statementCoverage>80</statementCoverage>
+      </healthyTarget>
+      <unhealthyTarget/>
+      <failingTarget/>
+    </org.jenkinsci.plugins.cloverphp.CloverPublisher>
+    <htmlpublisher.HtmlPublisher>
+      <reportTargets>
+        <htmlpublisher.HtmlPublisherTarget>
+          <reportName>PHP MD Report</reportName>
+          <reportDir>build/reports/phpmd/html</reportDir>
+          <reportFiles>report.html</reportFiles>
+          <keepAll>false</keepAll>
+          <wrapperName>htmlpublisher-wrapper.html</wrapperName>
+        </htmlpublisher.HtmlPublisherTarget>
+      </reportTargets>
+    </htmlpublisher.HtmlPublisher>
+    <hudson.tasks.junit.JUnitResultArchiver>
+      <testResults>build/reports/phpunit/junit/junit.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <testDataPublishers/>
+    </hudson.tasks.junit.JUnitResultArchiver>
+    <net.masterthought.jenkins.CucumberReportPublisher>
+      <jsonReportDirectory>build/reports/cucumber/json</jsonReportDirectory>
+      <pluginUrlPath></pluginUrlPath>
+      <skippedFails>true</skippedFails>
+      <undefinedFails>true</undefinedFails>
+      <noFlashCharts>false</noFlashCharts>
+    </net.masterthought.jenkins.CucumberReportPublisher>
+    <hudson.plugins.git.GitPublisher>
+      <configVersion>2</configVersion>
+      <pushMerge>false</pushMerge>
+      <pushOnlyIfSuccess>true</pushOnlyIfSuccess>
+      <tagsToPush>
+        <hudson.plugins.git.GitPublisher_-TagToPush>
+          <targetRepoName>origin</targetRepoName>
+          <tagName>VRS-${BUILD_ID}</tagName>
+          <tagMessage>This is a version pushed to Main repo git aftter a build pass on Local Jenkins</tagMessage>
+          <createTag>true</createTag>
+          <updateTag>false</updateTag>
+        </hudson.plugins.git.GitPublisher_-TagToPush>
+      </tagsToPush>
+    </hudson.plugins.git.GitPublisher>
+  </publishers>
+  <buildWrappers>
+    <hudson.plugins.xvnc.Xvnc>
+      <takeScreenshot>false</takeScreenshot>
+    </hudson.plugins.xvnc.Xvnc>
+  </buildWrappers>
+</project>

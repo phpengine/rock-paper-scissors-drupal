@@ -36,13 +36,18 @@ class AutoPilot {
     public $virtualHostEditorAdditionExecute = false;
     public $virtualHostEditorAdditionDocRoot = null;
     public $virtualHostEditorAdditionURL = null;
+    public $virtualHostEditorAdditionFileSuffix = null;
     public $virtualHostEditorAdditionIp = null;
     public $virtualHostEditorAdditionDirectory = null;
+    public $virtualHostEditorAdditionVHostEnable = false;
+    public $virtualHostEditorAdditionSymLinkDirectory = null;
 
     // Virtual Host Editor Deletion Variables
     public $virtualHostEditorDeletionExecute = false;
     public $virtualHostEditorDeletionIP = null;
     public $virtualHostEditorDeletionURI = null;
+    public $virtualHostEditorDeletionVHostDisable = null;
+    public $virtualHostEditorDeletionSymLinkDirectory = null;
 
     // DB Configuration Reset - App Settings
     public $dbResetExecute = true;
@@ -88,13 +93,3 @@ class AutoPilot {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
